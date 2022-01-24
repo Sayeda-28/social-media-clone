@@ -1,0 +1,109 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New';
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    margin-top: 0px;
+    overflow: hidden;
+    background-color: white;
+}
+
+    .topnav a {
+        float: right;
+        display: block;
+        color: #B85C38;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-right: 15px;
+        font-weight: bolder;
+
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            border-radius: 100px;
+        }
+
+        .topnav a.active {
+            background-color: #000000;
+            color: White;
+            border-radius: 50px;
+            padding: 14px 16px;
+            float: left;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+    .topnav .search-container {
+        float: left;
+        margin-left: 20px;
+        border:5px solid black;
+        height:70px;
+    }
+
+.search-container p{
+    font-size:40px;
+ margin:5px 0 0 0;
+ padding:5px;
+ font-weight:bolder;
+ color: #B85C38;
+}
+@media screen and (min-width:320px) and (max-width : 480px) {
+
+
+    .search-container p {
+        font-size: 20px;
+        margin: 5px 0 0 0;
+        padding: 5px;
+        font-weight: bold;
+        color: #B85C38;
+        border:none;
+    }
+    .topnav .search-container {
+        float: left;
+border:none;
+        height: 40px;
+        margin-left:-90px;
+    }
+    .topnav a {
+        float: right;
+        display: block;
+        color: #B85C38;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 10px;
+       
+        margin-left:0px;
+        font-weight: bolder;
+    }
+        .topnav a.active {
+            background-color: #000000;
+            color: White;
+            border-radius: 50px;
+            padding: 14px 16px;
+          
+        }
+    .topnav {
+    
+    height:55px;
+    }
+    .profile {
+  margin-top:-40px;
+  
+   width:20px;
+   margin-right:-50px;
+    }
+}

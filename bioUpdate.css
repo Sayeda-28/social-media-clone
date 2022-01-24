@@ -1,0 +1,51 @@
+.add-bio {
+
+    padding: 15px;
+    width: 280px;
+    height: 350px;
+    border-radius: 16px;
+    margin-top: 200px;
+    position: absolute;
+    top: 60%;
+    margin: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.bioin {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+.add-bio input {
+    width: 70px;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background: linear-gradient(to right,#1a2a6c,#b21f1f);
+    transition: all .2s ease;
+    outline: none;
+    font-weight: 700;
+}
+
+.add-bio button {
+    width: 70px;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background: linear-gradient(to right,#1a2a6c,#b21f1f);
+    transition: all .2s ease;
+    outline: none;
+    font-weight: 700;
+}
